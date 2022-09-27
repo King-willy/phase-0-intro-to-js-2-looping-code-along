@@ -1,10 +1,20 @@
 // Code your solutions in this file
-for (let countdown = 10; countdown > 0; countdown++) {
-  console.log(countdown);
+//const names = ["Guadalupe", "Ollie", "Aki"]; 
+function writeCards(names, event) {
+  let newArray = [];
+  for (let i = 0; i < names.length; i++) {
+      newArray.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`);
+      debugger;
+    
+  }
+  return newArray;
 }
 
-
-let countdown = 10;
-while (countdown > 0) {
-console.log(countdown++);
+function countDown () {
+  let i=10;
+  while (i > -1) {
+      console.log(i--);
+      
+  }
+  return i;
 }
